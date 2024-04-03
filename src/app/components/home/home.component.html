@@ -1,0 +1,4 @@
+<app-header (changeTimeRange) = changeTimeRange($event)></app-header>
+<div #graph class="container" >
+  <ng-container *ngIf="graphData$ | async"></ng-container>
+</div>

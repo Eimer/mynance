@@ -1,0 +1,9 @@
+<div class="header">
+  <div class="header__item" [ngClass]="{'selected': currentSelectedInterval === i}"
+       *ngFor="let item of timeInterval; let i = index"
+       (click)="toggleTimeRange(item, i)">{{item.toUpperCase()}}
+  </div>
+  <div class="header__pair">
+    
+  </div>
+</div>
