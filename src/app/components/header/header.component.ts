@@ -8,7 +8,7 @@ import {Component, EventEmitter, Output} from '@angular/core';
 export class HeaderComponent {
   @Output() changeTimeRange = new EventEmitter();
   public timeInterval = ['1d', '1w', '1M'];
-  public currentSelectedInterval!: number;
+  public currentSelectedInterval: number = 0;
 
   constructor() {
   }
