@@ -9,6 +9,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - Install dependencies:
   ```bash
   npm install
+- Install CLI:
+  ```bash
   npm install @angular/cli@16.2.0
 - Use:
   ```bash
