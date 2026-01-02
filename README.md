@@ -17,3 +17,5 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
+## Application Preview
+<img width="1344" height="546" alt="image" src="https://github.com/user-attachments/assets/26ce52c1-a732-4a29-8b52-391f030ce547" />
